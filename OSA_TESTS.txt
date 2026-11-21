@@ -1,0 +1,37 @@
+test_alarm_suppression (test_completion.ExternalContractTests.test_alarm_suppression) ... ok
+test_empty_optional_status (test_completion.ExternalContractTests.test_empty_optional_status) ... ok
+test_exact_end_boundary (test_completion.ExternalContractTests.test_exact_end_boundary) ... ok
+test_midnight_and_hypopnea (test_completion.ExternalContractTests.test_midnight_and_hypopnea) ... ok
+test_outside_duration_blocks (test_completion.ExternalContractTests.test_outside_duration_blocks) ... ok
+test_unknown_type_blocks (test_completion.ExternalContractTests.test_unknown_type_blocks) ... ok
+test_empty_incomplete_program_stays_incomplete (test_completion.ManuscriptSmokeTests.test_empty_incomplete_program_stays_incomplete) ... Matplotlib is building the font cache; this may take a moment.
+ok
+test_saved_prediction_bootstrap (test_completion.MetricUncertaintyTests.test_saved_prediction_bootstrap) ... ok
+test_legacy_AHI_groups_need_no_pickle (test_completion.SavedPredictionTests.test_legacy_AHI_groups_need_no_pickle) ... ok
+test_incomplete_target_excluded (test_integrity.ForecastContractTests.test_incomplete_target_excluded) ... ok
+test_transition_eligibility_does_not_condition_on_intervening_N (test_integrity.ForecastContractTests.test_transition_eligibility_does_not_condition_on_intervening_N) ... ok
+test_bout_boundaries (test_integrity.IntegrityTests.test_bout_boundaries) ... ok
+test_causal_crop (test_integrity.IntegrityTests.test_causal_crop) ... ok
+test_flat_qc (test_integrity.IntegrityTests.test_flat_qc) ... ok
+test_group_separation (test_integrity.IntegrityTests.test_group_separation) ... ok
+test_models_and_losses (test_integrity.IntegrityTests.test_models_and_losses) ... ok
+test_resumption (test_integrity.IntegrityTests.test_resumption) ... ok
+test_state_excludes_RMSSD (test_integrity.IntegrityTests.test_state_excludes_RMSSD) ... ok
+test_window_geometry (test_integrity.IntegrityTests.test_window_geometry) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 7.719s
+
+OK
+{
+  "time_UTC": "2026-11-21T17:06:59.597765+00:00",
+  "runner_lock_held": false,
+  "runner": {},
+  "controller_lock_held": false,
+  "controller": {},
+  "registry_counts": {},
+  "active_registry_entries": [],
+  "last_learning_record": [],
+  "stop_requested": false,
+  "errors_log_present": false
+}

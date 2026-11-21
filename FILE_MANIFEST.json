@@ -1,0 +1,125 @@
+{
+  "repository": "osa-ecg-development",
+  "release": "minimal-code-v1",
+  "scope": "Source, configuration, synthetic tests and public README only",
+  "software_tests_passed": 19,
+  "patient_or_database_files_included": false,
+  "research_results_manuscripts_figures_weights_included": false,
+  "files": [
+    {
+      "file": ".gitignore",
+      "bytes": 354,
+      "sha256": "f5ebede1c8350f8b9e3c844940ac3a9f6a127ee0179f0e4135ce3401b5d4f2a8"
+    },
+    {
+      "file": "README.md",
+      "bytes": 2801,
+      "sha256": "b8f3b518b85601a49fafc2e61b1e8d0063f0ac442dd6243a8f592dedaab655e2"
+    },
+    {
+      "file": "completion.py",
+      "bytes": 34295,
+      "sha256": "8931785c5d97709fc45302f6e0a93f9e6e8c13714acf7a1bff6434c54ea99943"
+    },
+    {
+      "file": "configs/study.json",
+      "bytes": 762,
+      "sha256": "681b04d80552e79cad0e912bd9e70400e89fd3a042adeb550374e07b1402aa1f"
+    },
+    {
+      "file": "control.py",
+      "bytes": 5686,
+      "sha256": "43f783e277d4625644f4749da2473443ce930d0409f1069b7d369b5f136b88a9"
+    },
+    {
+      "file": "external_prepare.py",
+      "bytes": 3873,
+      "sha256": "c5511c73585065315c1d07cebb38e5bcbd2b2d28d41d4cbf923d086c87d9cb0a"
+    },
+    {
+      "file": "reports/ANALYSIS_PROTOCOL.md",
+      "bytes": 9520,
+      "sha256": "0871fdbde60dd4080013081855b9e99349954ce74cb616bcd55004ddd5a4b31f"
+    },
+    {
+      "file": "reports/CORRECTIONS.md",
+      "bytes": 2010,
+      "sha256": "6ff2609260cc7e4612ccd961099f0de1832444d92017af018ac7e254e6e29612"
+    },
+    {
+      "file": "requirements-public.txt",
+      "bytes": 40,
+      "sha256": "0d207900d5ee3511fe18bf53f721d766dfbe3a8e23df7a39751875f25194fff2"
+    },
+    {
+      "file": "requirements.lock.txt",
+      "bytes": 106,
+      "sha256": "8bc60b7878b45f39d8e87adb9f51225f09bb5753a556ef7cbc85b68a355736bf"
+    },
+    {
+      "file": "scripts/fetch_primary.py",
+      "bytes": 4216,
+      "sha256": "d2aedaf8ad3c5e45beef0f3c5f6e0f5719262b02dd3d6752530beecd3d0e8cf5"
+    },
+    {
+      "file": "src/classical.py",
+      "bytes": 6403,
+      "sha256": "c7c72e1135b602f6e19b62c270e346a1290fc9cebb44e4f4cbe664697a48f37f"
+    },
+    {
+      "file": "src/common.py",
+      "bytes": 1342,
+      "sha256": "849eb06311765b6c51d4e0c84157c190c3ebcf7a76e11f2f64a1905e74bde572"
+    },
+    {
+      "file": "src/data.py",
+      "bytes": 7870,
+      "sha256": "bfaf80143c6171d094c6842608bf228dc335dd2f612be978ef1e825878ccf900"
+    },
+    {
+      "file": "src/evaluate.py",
+      "bytes": 3715,
+      "sha256": "1e617bbf78a9ec3e534d27ef0c390f84e70b5915b376398e3a75cc561728a48d"
+    },
+    {
+      "file": "src/external.py",
+      "bytes": 3357,
+      "sha256": "29e54476c8ef428b819326cd3124628f5058272807ef42749d07016dd8cd1c68"
+    },
+    {
+      "file": "src/neural.py",
+      "bytes": 10661,
+      "sha256": "1a7cf05c60afbf6ec98dd3356c3b946c50978b9a8bfe271b2b5878519f716de4"
+    },
+    {
+      "file": "src/report.py",
+      "bytes": 15077,
+      "sha256": "bcf6242d83a7a39a99935f17c025a6b7b0a1a15a8bebc90f501210e15e0ef6c7"
+    },
+    {
+      "file": "src/representations.py",
+      "bytes": 4788,
+      "sha256": "614c918fc51ab860dceacd72cb9379268ede38d4c2bf5431eb437116bf38f9c9"
+    },
+    {
+      "file": "src/residual.py",
+      "bytes": 5896,
+      "sha256": "d8f1c229b828e8faf3133cf04f46c9bee4d2ce8c667c43259f736b203b695682"
+    },
+    {
+      "file": "src/runner.py",
+      "bytes": 6526,
+      "sha256": "12fc605c4f572513a0213d650e906221e8bd08a3e5b1cceb2c7a9a62feff7f65"
+    },
+    {
+      "file": "tests/test_completion.py",
+      "bytes": 3770,
+      "sha256": "c4bd95952187a89589849afe397c23baa0784072eccd15cef9a010fd6a401d9a"
+    },
+    {
+      "file": "tests/test_integrity.py",
+      "bytes": 4245,
+      "sha256": "1475b1565ee3b10efd709557075c5fd441a198d72dc8b0c440810f24bd28a08f"
+    }
+  ]
+}
